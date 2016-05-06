@@ -35,6 +35,8 @@
 
 	<dependencies>
 
+
+		<!-- Comment spring-cloud-starter-config to make it work again -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
