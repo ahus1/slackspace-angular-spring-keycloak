@@ -1,8 +1,0 @@
-{
-  "realm": "Demo-Realm",
-  "realm-public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkRS35Z5lblNpvfHr8C6XEGi9vwYew737+LmcpDbxamLVSdNEWi01Gh2TXCWjDsONaUmvQBIVPvJM5dRmnR5lNtYFnRr6vrT/18I/+E/pU/5a9fj0hMyib1HEsKslI6P2os1vunIiHgkDJkePo9tTbRsG71WH7fXM7BSienZO0ZLV1TbgiLj+PSoFLzAHF0P3BXzHIGTqHzs/UHZ/7ub9Oc2vpSXi4IZKGVLQnc9VNZaMu0QWgnqjMCr7CQRORMQ+y4QGw+DFaZ1pBNpZ+bgy6wKSf17U/5Va/CWs/+UjGj50L/1QqertuMcFKqnnQDLhRmnQErLtdpXzop0YQxka/QIDAQAB",
-  "auth-server-url": "http://localhost:8080/auth",
-  "ssl-required": "external",
-  "resource": "tutorial-frontend",
-  "public-client": true
-}
