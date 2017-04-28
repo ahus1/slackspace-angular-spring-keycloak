@@ -14,10 +14,17 @@
         <relativePath/>
     </parent>
 
+    <repositories>
+        <repository>
+            <id>jboss-maven2-release-repository</id>
+            <url>https://repository.jboss.org/nexus/content/repositories/public-jboss/</url>
+        </repository>
+    </repositories>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <start-class>de.slackspace.keycloaktutorial.KeyCloakTutorial</start-class>
-        <keycloak.version>3.0.0.CR1-SNAPSHOT</keycloak.version>
+        <keycloak.version>3.1.0.CR1</keycloak.version>
         <java.version>1.8</java.version>
     </properties>
 
