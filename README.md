@@ -1,6 +1,7 @@
 # Authentication with Spring Boot, AngularJS and Keycloak
 
 - Make sure to start Keycloak before using the application
+- There is a realm for import in the folder `keycloak`
 
 ## Run with embedded Server
 

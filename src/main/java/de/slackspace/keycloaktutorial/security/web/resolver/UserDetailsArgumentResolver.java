@@ -32,10 +32,15 @@ public class UserDetailsArgumentResolver implements HandlerMethodArgumentResolve
 		KeycloakPrincipal<RefreshableKeycloakSecurityContext> principal =
 				(KeycloakPrincipal<RefreshableKeycloakSecurityContext>) webRequest.getUserPrincipal();
 
-		AccessToken token = principal.getKeycloakSecurityContext().getToken();
+		if(principal != null) {
 
-		return new UserDetails(token.getId(), token.getGivenName(), token.getFamilyName(), token.getEmail(),
-				token.getRealmAccess().getRoles());
+			AccessToken token = principal.getKeycloakSecurityContext().getToken();
+
+			return new UserDetails(token.getId(), token.getGivenName(), token.getFamilyName(), token.getEmail(),
+					token.getRealmAccess().getRoles());
+		} else {
+			return null;
+		}
 	}
 
 	@Override

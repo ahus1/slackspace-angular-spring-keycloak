@@ -30,7 +30,11 @@ public class ContractResource {
 	}
 	
 	private String createUserAppendix(UserDetails userDetails) {
-		return userDetails.getFullName() + " (id= " + userDetails.getId() + ")";
+		if(userDetails != null) {
+			return userDetails.getFullName() + " (id= " + userDetails.getId() + ")";
+		} else {
+			return "unknown";
+		}
 	}
 	
 }
